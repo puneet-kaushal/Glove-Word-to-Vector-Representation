@@ -20,7 +20,7 @@ font = {'family': 'serif',
         'weight': 'normal',
         'size': 10,
         }
-
+#x and y coordinates where you need to display the text.
 plt.text(0.5, -0.06, r'Word "hard" in vector form', fontdict=font)
 plt.plot(array)
 plt.grid(True)
